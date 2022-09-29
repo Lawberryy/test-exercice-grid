@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row-1 div:first-child {
+    background-color:blue;
+    width: 25%;
+}
+
+.row-1 div:nth-of-type(2) {
+    background-color: rgb(183, 183, 183);
+    width: 25%;
+}
+
+.row-1 div:last-child {
+    background-color:red;
+    width: 50%;
+}
+
+.row-2 div:first-child {
+    background-color: yellow;
+    width: 75%;
+}
+
+.row-2 div:last-child {
+    background-color:cyan;
+    width: 25%;
+}
+
+.row-3 div:first-child {
+    background-color: rgb(121, 201, 1);
+    width: 50%;
+}
+
+.row-3 div:last-child {
+    background-color:rgb(187, 132, 202);
+    width: 50%;
+}
+
+.row-4 {
+    background-color:brown;
+}
+
+.middle-div {
+    background-color:rgb(255, 149, 0);
+    width: calc(50% / 3);
+}
+
+.top{
+    background-color: palevioletred;
+    height: 40vh;
+}
+
+.bottom div:first-child {
+    background-color:cornflowerblue;
+    width: 50%;
+}
+
+.bottom div:last-child {
+    background-color:darkkhaki;
+    width: 50%;
+}
+
+
+.main {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.left-div {
+    width: 50% ;
+}
+
+.row-1 {
+    display: flex;
+    height: 20vh;
+}
+
+
+.row-2 {
+    display: flex;
+    height: 20vh;
+}
+
+.row-3 {
+    display: flex;
+    height: 40vh;
+}
+.row-4 {
+    display: flex;
+    height: 20vh;
+}
+
+.right-div {
+    width: calc((50% / 3)*2);
+}
+
+.bottom {
+    display: flex;
+    height: 60vh;
+}
